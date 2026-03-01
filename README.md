@@ -65,8 +65,8 @@ Allowed origins are currently hardcoded in `src/index.ts`:
 - Request body:
 ```json
 {
-  "email": "admin@example.com",
-  "password": "your_password"
+  "email": "admin@portfolio.com",
+  "password": "admin@123456"
 }
 ```
 - Response includes access token:
