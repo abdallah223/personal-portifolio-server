@@ -1,0 +1,168 @@
+[{
+  "_id": {
+    "$oid": "69a35247e8b6a31dd7c07074"
+  },
+  "title": "E-Commerce Platform",
+  "slug": "e-commerce-platform",
+  "summary": "A full-featured online store with product management, cart, and payment integration.",
+  "problem": "Small businesses had no affordable way to sell products online with proper inventory management.",
+  "solution": "Developed a complete e-commerce solution with an admin panel, product catalog, shopping cart, and Stripe payment integration.",
+  "impact": [
+    "Processed over 500 orders in the first month",
+    "Reduced order management time by 60%"
+  ],
+  "stack": [
+    "Angular",
+    "Node.js",
+    "MongoDB",
+    "Stripe",
+    "Tailwind CSS"
+  ],
+  "links": {
+    "live": "",
+    "repo": ""
+  },
+  "coverImageUrl": "/uploads/1772339610514-e-coomerce.jpg",
+  "featured": true,
+  "status": "published",
+  "createdAt": {
+    "$date": "2026-01-10T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-01T20:55:57.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a35247e8b6a31dd7c07075"
+  },
+  "title": "HR Management System",
+  "slug": "hr-management-system",
+  "summary": "An internal HR platform for managing employees, attendance, payroll, and leave requests.",
+  "problem": "The HR department was overwhelmed by manual paperwork for attendance tracking and payroll calculations.",
+  "solution": "Created a full HR portal with employee profiles, automated attendance tracking, leave approval workflows, and payroll generation.",
+  "impact": [
+    "Saved 20+ hours per week for HR staff",
+    "Reduced payroll errors by 90%"
+  ],
+  "stack": [
+    "Angular",
+    "Node.js",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "links": {
+    "live": "",
+    "repo": ""
+  },
+  "coverImageUrl": "/uploads/1772339410962-hrms.webp",
+  "featured": false,
+  "status": "published",
+  "createdAt": {
+    "$date": "2025-11-05T08:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-01T04:30:10.965Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a35247e8b6a31dd7c07076"
+  },
+  "title": "Real-Time Chat App",
+  "slug": "real-time-chat-app",
+  "summary": "A real-time messaging application with rooms, private messages, and file sharing.",
+  "problem": "Remote teams needed a lightweight, self-hosted chat tool without relying on expensive third-party services.",
+  "solution": "Built a WebSocket-powered chat application with support for group rooms, direct messages, online indicators, and file uploads.",
+  "impact": [
+    "Used by a team of 50+ daily",
+    "Replaced a $200/month third-party tool"
+  ],
+  "stack": [
+    "React",
+    "Socket.io",
+    "Node.js",
+    "MongoDB",
+    "Redis"
+  ],
+  "links": {
+    "live": "",
+    "repo": ""
+  },
+  "coverImageUrl": "/uploads/1772339240384-chat.png",
+  "featured": true,
+  "status": "published",
+  "createdAt": {
+    "$date": "2025-09-12T14:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-01T04:27:20.625Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a35247e8b6a31dd7c07077"
+  },
+  "title": "Inventory Tracker",
+  "slug": "inventory-tracker",
+  "summary": "A smart inventory management system with low-stock alerts and supplier management.",
+  "problem": "Warehouse staff had no visibility into stock levels and frequently experienced stockouts or overordering.",
+  "solution": "Developed a real-time inventory dashboard with barcode scanning support, automated low-stock email alerts, and purchase order generation.",
+  "impact": [
+    "Cut stockout incidents by 75%",
+    "Improved order accuracy to 99%"
+  ],
+  "stack": [
+    "Vue.js",
+    "Node.js",
+    "MySQL",
+    "Express"
+  ],
+  "links": {
+    "live": "",
+    "repo": ""
+  },
+  "coverImageUrl": "/uploads/1772339765080-ZohoInventory-min.png",
+  "featured": false,
+  "status": "published",
+  "createdAt": {
+    "$date": "2025-07-20T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-01T04:36:05.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a35247e8b6a31dd7c07078"
+  },
+  "title": "Task Management Board",
+  "slug": "task-management-board",
+  "summary": "A Kanban-style project management tool for teams to plan, track, and deliver work.",
+  "problem": "Development teams lacked a simple tool to visualize task progress and collaborate without context switching.",
+  "solution": "Built a drag-and-drop Kanban board with task assignments, due dates, labels, and team comments synced in real time.",
+  "impact": [
+    "Adopted by 3 internal teams",
+    "Improved sprint completion rate by 30%"
+  ],
+  "stack": [
+    "Angular",
+    "Node.js",
+    "MongoDB",
+    "Socket.io",
+    "JWT"
+  ],
+  "links": {
+    "live": "",
+    "repo": ""
+  },
+  "coverImageUrl": "/uploads/1772339272162-Task-manager-apps.jpg",
+  "featured": false,
+  "status": "published",
+  "createdAt": {
+    "$date": "2025-05-03T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-01T04:27:52.254Z"
+  }
+}]

@@ -133,3 +133,34 @@ Allowed origins are currently hardcoded in `src/index.ts`:
 - Add refresh-token strategy
 - Add pagination/filtering for projects
 - Add test coverage (unit + integration)
+
+## Import Existing DB Data (Mentor)
+The repository includes MongoDB export files in `data/exports/`:
+- `data/exports/portfolio.projects.json`
+- `data/exports/portfolio.profiles.json`
+
+### Prerequisite
+Install MongoDB Database Tools so `mongoimport` is available.
+
+### Import Commands
+From the project root, run:
+
+```bash
+mongoimport --uri "<YOUR_MONGO_URI>" --db portfolio --collection projects --file data/exports/portfolio.projects.json --jsonArray --drop
+mongoimport --uri "<YOUR_MONGO_URI>" --db portfolio --collection profiles --file data/exports/portfolio.profiles.json --jsonArray --drop
+```
+
+If your database name is not `portfolio`, replace `--db portfolio` with your DB name.
+
+### Verify Import
+After running imports, start server:
+
+```bash
+npm run dev
+```
+
+Then check:
+- `GET /api/v1/public/projects`
+- `GET /api/v1/public/profile`
+
+You should receive the imported data.

@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "699b873fa78ba404b88bc6f3"
+  },
+  "__v": 0,
+  "about": "MIS graduate and Workforce Lead who goes beyond operations management, with hands-on \nexperience in web development and Microsoft Power Platform automation. Known for strong \nownership in building, supporting, and scaling internal systems including CRM and ticketing \nplatforms transforming manual processes into efficient, production ready solutions at zero \nadditional cost to the business.",
+  "createdAt": {
+    "$date": "2026-02-22T22:46:23.384Z"
+  },
+  "headline": "MEAN Stack Developer",
+  "location": "Cairo, Maadi",
+  "name": "Abdallah Omar",
+  "socials": {
+    "github": "https://github.com/abdallah223",
+    "linkedin": "https://www.linkedin.com/in/abdallah-omar-689023341/",
+    "email": "abdallahomar417@gmail.com",
+    "website": ""
+  },
+  "status": "published",
+  "updatedAt": {
+    "$date": "2026-03-01T18:39:35.094Z"
+  }
+}]
